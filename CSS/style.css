@@ -1,1 +1,19 @@
-stylinnnnnnnnnn
+html {
+  background-color: #C2CAD0;
+}
+.navBar {
+  width: 100%;
+  height: 50px;
+  font-family: verdana, tahoma;
+  font-size: 14px;
+  border-bottom: 2px solid black;
+  background-color: gray;
+  display: flex;
+}
+.navBar ul:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+}
+.navBar ul:nth-child(1) li {
+  display: flex;
+}
